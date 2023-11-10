@@ -90,13 +90,9 @@ nav {
 }
 
 .snaker-big {
-    max-width: 1,140px;
-    max-height: 1,599px;
-   
-    
+    padding: 48px 48px 0px 48px;
+    background-color: rgb(255, 255, 255);
     margin-top: 32px;
-    color: #F1F1F1;
-
 }
 
 .snaker_card {
