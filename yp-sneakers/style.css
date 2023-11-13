@@ -56,10 +56,8 @@ header {
     background: white;
 }
 
-@media screen and (max-with:375px ) {
-    body {
-        background-color: black;
-    }
+@media screen and (max-) {
+    
 }
 
 .header-container {
