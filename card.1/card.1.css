@@ -213,10 +213,6 @@ footer .nav-link {
 }
 
 @media screen and (max-width:375px) {
-    main {
-       
-        
-    }
     header {
        height: 156px;
        display: flex;
@@ -237,8 +233,7 @@ footer .nav-link {
         color: #F1F1F1;
     }
     .snaker_card {
-        width: 295px;
-        
+        width: 295px;  
     }
    
     .img_card {
@@ -250,13 +245,10 @@ footer .nav-link {
     h4 {
         font-size: 20px;
     }
-    .contener-text {
-        
+    .contener-text {   
         width: 100%;
         display: flex;
         flex-direction: column;
-        
-
     }
     .card-text {
         max-width: 295px;
@@ -271,8 +263,6 @@ footer .nav-link {
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
-
-    
     }
 
     .p1 {
@@ -324,8 +314,6 @@ footer .nav-link {
     }
     .copyright-text {
         margin: 24px 0;
-        
-      
-    }
 
+    }
 }
