@@ -55,11 +55,6 @@ header {
     border-bottom: 1px solid #A1A6B4;
     background: white;
 }
-
-@media screen and (max-) {
-    
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
