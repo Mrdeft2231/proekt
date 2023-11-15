@@ -217,8 +217,17 @@ footer .nav-link {
     }
     .sneaker {
         width: 343px;
-        height: 376px;
+        
     }
+    .sneaker-image {
+       width: 343px;
+       height: 254px;
+    }
+    
+    .h {
+        margin-bottom: 12px;
+    }
+    
     footer {
         max-height: 195px;
         max-width: 375px;

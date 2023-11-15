@@ -156,15 +156,11 @@ nav {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-
-   
-    
-
 }
 
-.card-text-mini {
-
-}
+.p1 {
+    margin-bottom: 35px;
+ }
 
 .spans {
     display: flex;
@@ -216,4 +212,112 @@ footer .nav-link {
     font-size: 16px;
     font-weight: 700;
     margin: 24px 0;
+}
+
+@media screen and (max-width:375px) {
+    header {
+       height: 156px;
+       display: flex;
+       flex-direction: column;
+}
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .snaker-big {
+        max-width: 343px;
+        height: 1600px;
+        padding: 24px 24px 24px 24px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+        margin: 32px 0px 32px 0px;
+        color: #F1F1F1;
+    }
+    .snaker_card {
+        width: 295px;  
+    }
+   
+    .img_card {
+        width: 295px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .contener-text {   
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-text {
+        max-width: 295px;
+        font-size: 16px;
+        display: flex;
+        width: 295px;
+        height: 888px;
+        gap: 35px;
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .p1 {
+        margin: 0;
+    }
+    .card-text-mini{
+    margin-top: 0px;
+    margin-top: 102px
+    }
+    .spans {
+        display: flex;
+        justify-content: space-between;
+        margin: 24px 0px 24px 0px;
+    }
+   
+    .cross {
+        font-size: 24px;
+    }
+    span {
+        font-size: 16px;
+    }
+    .line {
+        width: 295px;
+    }
+
+    footer {
+        max-height: 195px;
+        max-width: 375px;
+        
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+        margin: 0;
+        margin: 29px 0;
+        gap: 19px; 
+    }
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 343px;
+        border-top: 1px solid #A1A6B4;
+       
+    }
+    .copyright-text {
+        margin: 24px 0;
+
+    }
 }
